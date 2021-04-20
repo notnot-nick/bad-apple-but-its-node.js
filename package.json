@@ -1,0 +1,22 @@
+{
+  "name": "vd2ascii2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@suldashi/lame": "^1.2.5",
+    "argparse": "^2.0.1",
+    "cli-progress": "^3.9.0",
+    "driftless": "^2.0.3",
+    "ffmpeg-extract-frames": "^2.0.2",
+    "pcm-volume": "^1.0.0",
+    "sharp": "^0.28.1",
+    "speaker": "^0.5.3"
+  }
+}
