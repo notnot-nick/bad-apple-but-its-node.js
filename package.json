@@ -17,6 +17,7 @@
     "ffmpeg-extract-frames": "^2.0.2",
     "pcm-volume": "^1.0.0",
     "sharp": "^0.28.1",
-    "speaker": "^0.5.3"
+    "speaker": "^0.5.3",
+    "subtitles-parser": "^0.0.2"
   }
 }

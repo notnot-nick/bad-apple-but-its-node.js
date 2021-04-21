@@ -9,6 +9,7 @@ specifiers:
   pcm-volume: ^1.0.0
   sharp: ^0.28.1
   speaker: ^0.5.3
+  subtitles-parser: ^0.0.2
 
 dependencies:
   '@suldashi/lame': 1.2.5
@@ -19,6 +20,7 @@ dependencies:
   pcm-volume: 1.0.0
   sharp: 0.28.1
   speaker: 0.5.3
+  subtitles-parser: 0.0.2
 
 packages:
 
@@ -664,6 +666,10 @@ packages:
   /strip-json-comments/2.0.1:
     resolution: {integrity: sha1-PFMZQukIwml8DsNEhYwobHygpgo=}
     engines: {node: '>=0.10.0'}
+    dev: false
+
+  /subtitles-parser/0.0.2:
+    resolution: {integrity: sha1-zy/MPjl7HH+DHhNl9rPON9MVUZQ=}
     dev: false
 
   /tar-fs/2.1.1:
