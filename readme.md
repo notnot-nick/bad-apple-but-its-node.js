@@ -13,3 +13,5 @@ CLI Args:
 
 `-p --process` - Force processing of frames
 `-e --extract` - Force extraction of frames
+
+YOU NEED FFMPEG IN YOUR PATH TO MAKE THIS WORK
