@@ -24,7 +24,9 @@ module.exports = async (cfg) => {
 	let i = 0
 	await asyncForEach(frames, async (r) => {
 		const frame = fs.readFileSync(`./frames/${r}`);
-		const data = await sharp(frame).resize(cfg.sizeFrame[0], cfg.sizeFrame[1]).removeAlpha().raw().toBuffer();
+		const data = await sharp(frame).resize(cfg.sizeFrame[0], cfg.sizeFrame[1], {
+			fit: 'fill'
+		}).removeAlpha().raw().toBuffer();
 		let iterX = 0;
 		let iterY = 0;
 		let final = '';
